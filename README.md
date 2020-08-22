@@ -1,6 +1,6 @@
 # 03 JavaScript: Password Generator
 
-Address for site: (https://daysloth.github.io/PasswordGenerator/)
+[Address for site](https://daysloth.github.io/PasswordGenerator/)
 
 ![password generator](https://i.imgur.com/EtKwdzg.png)
 
