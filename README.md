@@ -1,46 +1,20 @@
 # 03 JavaScript: Password Generator
 
+Address for site: (https://daysloth.github.io/PasswordGenerator/)
+
 ![password generator](https://i.imgur.com/EtKwdzg.png)
 
-## User Story
+## Description 
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+This project was built for a company to use for generating a secure password. The generator takes in user inputs to determine how complex to make the password. Inputs taken in are
+as follows: length of password, if the user wants lowercase characters, uppercase, numbers or special characters. It will then generate a password matching this criteria and output to the text area. I also added in an option for copy to clipboard to make sure they don't misspell the password given. I have also removed certain characters to clear up any confusion. Things like a lowercase 'l', an uppercase 'I', as well as the pipe '|' since these can be confusing with certain fonts. Also the uppercase letter 'O' has been removed.
 
-## Acceptance Criteria
+## Credits
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+Credits go to W3 schools for clearing up any JavaScript questions I had
 
-The following image demonstrates the application functionality:
+## License
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+Copyright (c) Allister Rampenthal. All rights reserved.
 
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
