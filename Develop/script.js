@@ -7,9 +7,7 @@ var passwordText = document.querySelector("#password");
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-
   passwordText.value = password;
-
 }
 
 //copy to clipboard function
@@ -97,8 +95,7 @@ function generatePassword() {
 }
 //a random number function that will take in  min and  max
 function randomCharSelector(min, max) {
-  var num = Math.floor(Math.random() * (max - min) + min);
-  return num;
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 
